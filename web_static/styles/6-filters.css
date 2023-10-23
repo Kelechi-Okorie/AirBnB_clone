@@ -45,3 +45,28 @@ h4 {
     color: #484848;
     margin: 0 40px;
 }
+
+ul.popover {
+    list-style-type: none;
+    background-color: #FAFAFA;
+    color: #484848;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    z-index: 1;
+    display: none;
+    margin-top: 20px;
+}
+
+ul.popover li {
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+ul.popover li.heading {
+    margin-left: 25px;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
